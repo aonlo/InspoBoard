@@ -1,0 +1,6 @@
+@InspoBoard_HostAddress = http://localhost:5123
+
+GET {{InspoBoard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
