@@ -145,3 +145,5 @@ D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0
 D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0\InspoBoard.Api.pdb
 D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0\InspoBoard.Api.genruntimeconfig.cache
 D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0\ref\InspoBoard.Api.dll
+D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0\InspoBoard.Api.sourcelink.json
+D:\Users\Aaron\Desktop\Misc Projects\InspoBoard\InspoBoard.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
