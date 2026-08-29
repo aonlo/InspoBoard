@@ -1,2 +1,46 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
-GET http://localhost:5123
+### Get list of Boards
+GET http://localhost:5123/api/boards
+
+### Get Board of ID
+GET http://localhost:5123/api/boards/2
+
+### Create Board
+POST http://localhost:5123/api/boards
+Content-Type: application/json
+{
+  "name": "Test Board"
+}
+
+### Update Board
+PUT http://localhost:5123/api/boards/2
+Content-Type: application/json
+{
+  "name": "A Named Board"
+}
+
+### Delete Board
+DELETE http://localhost:5123/api/boards/2
+
+### Get list of Items on a Board
+GET http://localhost:5123/api/boards/2/items
+
+### Get item of ID on a Board
+GET http://localhost:5123/api/boards/2/items/1
+
+### Create Item on a Board
+POST http://localhost:5123/api/boards/2/items
+Content-Type: application/json
+{
+  "description": "just an item"
+}
+
+### Update Item of ID on a Board
+PUT http://localhost:5123/api/boards/2/items/2
+Content-Type: application/json
+{
+  "description": "a different item"
+}
+
+### Delete Item on Board
+DELETE http://localhost:5123/api/boards/1/items/3

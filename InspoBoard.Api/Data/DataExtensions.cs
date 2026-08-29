@@ -20,13 +20,13 @@ namespace InspoBoard.Api.Data
                 connectionString: connString,
                 optionsAction: options => options.UseSeeding((context, _) =>
                 {
-                    // If no items in db => add these
-                    if (!context.Set<Item>().Any())
-                    {
-                        var item = new Item { Title = "Test" };
-                        context.Set<Item>().Add(item);
-                        context.SaveChanges();
-                    }
+                    //// If no items in db => add these
+                    //if (!context.Set<Item>().Any())
+                    //{
+                    //    var item = new Item {  };
+                    //    context.Set<Item>().Add(item);
+                    //    context.SaveChanges();
+                    //}
                 })
             );
         }
